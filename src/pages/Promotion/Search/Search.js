@@ -1,8 +1,6 @@
 import React from "react";
-import PromotionCard from "./components/Promotion/Card/Card";
-
-const App = () => {
-  const promotion = {
+import PromotionCard from "components/Promotion/Card/Card";
+const promotion = {
     id: 1,
     title:
       "Kit Notebook Acer Aspire 3 + Mochila Green, A315-41-R790, AMD Ryzen 3 2200U Dual Core",
@@ -18,6 +16,8 @@ const App = () => {
     ],
   };
 
+
+const PagesPromotionSearch = () => {
   return (
     <div
       className="App"
@@ -31,4 +31,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default PagesPromotionSearch;
